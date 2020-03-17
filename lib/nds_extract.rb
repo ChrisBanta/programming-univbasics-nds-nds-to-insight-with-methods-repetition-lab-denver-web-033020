@@ -50,7 +50,6 @@ while director_index < source.length do
   director_index += 1
 end
 total_gross_of_earnings
-pp total_gross_of_earnings
 end
 
   # Write this implementation
