@@ -51,7 +51,7 @@ while director_index < source.length do
 end
 total_gross_of_earnings
 end
-
+pp total_gross
   # Write this implementation
   #
   # Should use methods:
