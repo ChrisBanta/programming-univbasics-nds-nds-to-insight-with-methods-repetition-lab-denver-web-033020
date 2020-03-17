@@ -1,6 +1,6 @@
  require 'pp'
  require 'pry'
- 
+
  $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 
@@ -50,6 +50,7 @@ while director_index < source.length do
   director_index += 1
 end
 total_gross_of_earnings
+pp total_gross_of_earnings
 end
 
   # Write this implementation
