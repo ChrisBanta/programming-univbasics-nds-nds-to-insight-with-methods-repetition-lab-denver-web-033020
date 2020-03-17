@@ -28,8 +28,8 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  director_index = 0
   director_list = []
+  director_index = 0
 
   while director_index < source.length do
     director_list << (source[director_index][:name])
